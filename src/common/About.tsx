@@ -18,7 +18,7 @@ export default function componentName() {
                   clients.
                 </p>
                 <p className="font-normal text-black md:text-xl mb-6">Here are a few technologies I’ve been working with recently:</p>
-                <ul className="grid grid-cols-2 space-y-2 w-2/3 md:mb-10">
+                <ul className="grid grid-cols-2 space-y-2 w-2/3 md:w-full md:mb-10">
                   <li className="gap-1 flex items-center transition-all duration-300 hover:translate-x-[7px] select-none hover:text-primary">
                     <FaCaretRight />
                     HTMl/HTML5
