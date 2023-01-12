@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
 .header-container {
   max-width: 1340px;
   margin: auto;
@@ -41,4 +44,32 @@
 }
 .box-shadow {
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+}
+
+.showMenu {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  box-shadow: 0 15px 20px 0 rgb(5 20 65 / 10%);
+  padding: 10px 15px 40px;
+  max-height: 380px;
+  overflow-y: scroll;
+}
+.open {
+  margin-top: 15px;
+}
+.open span:nth-child(1) {
+  transform: rotate(-45deg);
+  width: 26px;
+}
+.open span:nth-child(2) {
+  display: none;
+}
+.open span:nth-child(3) {
+  transform: rotate(45deg);
+  width: 26px;
+  top: 0;
 }

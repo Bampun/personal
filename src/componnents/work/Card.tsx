@@ -4,7 +4,7 @@ import Wdata from './Wdata';
 export default function Card({ data }: any) {
   return (
     <>
-      <section className="work-wrapper py-20">
+      <section className="work-wrapper py-20" id="works">
         <div className="container">
           <div>
             <h2 className="text-4xl font-medium mb-10">Some Things I’ve Built</h2>

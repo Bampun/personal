@@ -4,7 +4,7 @@ import SecondaryBtn from '../componnents/button/SecondaryBtn';
 export default function contact() {
   return (
     <>
-      <section className="contact-wrapper py-20 bg-background">
+      <section className="contact-wrapper py-20 bg-background" id="contact">
         <div className="container">
           <div className="flex justify-center items-center">
             <div className="max-w-md">

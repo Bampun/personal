@@ -3,7 +3,7 @@ import React from 'react';
 export default function footer() {
   return (
     <>
-      <section className="work-wrapper py-10 bg-background">
+      <section className="work-wrapper py-10 bg-background" id="footer">
         <div className="container">
           <div className="flex justify-center items-center">
             <p className="text-center font-normal text-black">
