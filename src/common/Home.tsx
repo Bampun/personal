@@ -2,6 +2,7 @@ import About from './About';
 import PrimaryBtn from '../componnents/button/PrimaryBtn';
 import Experience from '../componnents/experience/Experience';
 import Work from '../componnents/work/Work';
+import Contact from './Contact';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <Experience />
       <Work />
+      <Contact />
     </>
   );
 }

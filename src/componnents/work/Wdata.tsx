@@ -2,24 +2,24 @@ import Link from 'next/link';
 
 export default function Edata({ works }: any) {
   return (
-    <div className="work-body relative grid grid-cols-12 items-center gap-3 group flex-col-reverse mb-10">
-      <div className="relative col-span-7">
+    <div className="work-body md:col-span-12 lg:col-span-6 col-span-4 bg-primary rounded-xl p-6 group">
+      <div className="work-inner">
         <Link href={works.link}>
-          <div className="h-[350px] relative rounded-xl overflow-hidden">
+          <div className="h-[220px] relative rounded-xl overflow-hidden w-full">
             <span>
-              <img src={works.image} alt="Profile" />
+              <img className="rounded-xl" src={works.image} alt="Profile" />
             </span>
           </div>
         </Link>
       </div>
-      <div className="sm:col-span-12 col-span-5 text-right absolute sm:inherent left-[50%] sm:left-auto">
-        <div>
-          <p className="text-primary text-lg mb-5">{works.postType}</p>
-          <h2 className="text-3xl font-medium mb-5">{works.title}</h2>
-          <div className="y-6 p-6 bg-primary text-slate-300 shadow-xl rounded-xl mb-5">
-            <p className="font-normal text-white md:text-xl">{works.info}</p>
+      <div className="work-inner">
+        <div className="mt-3">
+          <p className="text-white text-md mb-3">{works.postType}</p>
+          <h2 className="text-2xl font-medium mb-3 text-white">{works.title}</h2>
+          <div className="mb-3">
+            <p className="font-normal text-white md:text-sm">{works.info}</p>
           </div>
-          <div className=" text-black">
+          <div className=" text-white">
             <span>{works.categories}</span>
           </div>
         </div>

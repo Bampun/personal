@@ -38,7 +38,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="secondary-btn ml-3">
-                <SecondaryBtn value="Resume" />
+                <SecondaryBtn value="Resume" link="/resume" />
               </li>
             </ul>
           </div>
