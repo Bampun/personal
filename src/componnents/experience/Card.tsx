@@ -2,6 +2,7 @@ import React from 'react';
 import Edata from './Edata';
 
 export default function Card({ data }: any) {
+
   return (
     <>
       <section className="experience-wrapper py-20 bg-background" id="experence">

@@ -6,8 +6,8 @@ export default function componentName() {
   return (
     <>
       <Head>
-        <title>Personal</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Bam Pun</title>
+        <link rel="icon" href="/book.png" />
       </Head>
 
       <Main />

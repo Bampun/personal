@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import SecondaryBtn from '../button/SecondaryBtn';
-import Cart from '../store/Cart';
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -46,11 +45,9 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="secondary-btn ml-3 md:ml-0 md:mt-5">
-                <SecondaryBtn value="Resume" link="#" />
+                <SecondaryBtn value="Resume" link="/resume.pdf" />
               </li>
-              <li className="md:mb-2 md:text-2xl md:font-medium relative">
-                <Cart />
-              </li>
+    
             </ul>
           </div>
           <div className={menu ? 'humburger hidden md:block relative w-7 h-7 open' : 'humburger hidden md:block relative w-7 h-7'}>

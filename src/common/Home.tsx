@@ -28,7 +28,7 @@ export default function Home() {
       <Experience />
       <Work />
       <Contact />
-      <Store />
+      {/* <Store /> */}
     </>
   );
 }
